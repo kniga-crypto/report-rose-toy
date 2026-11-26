@@ -1,0 +1,594 @@
+name: Default
+closeRobloxHours: 0
+planterSettingsMigrated: true
+discord:
+    enabled: false
+    pings:
+        disconnectEnabled: false
+        reconnectErrorEnabled: false
+        unexpectedDeathEnabled: false
+        planterMissingEnabled: false
+join:
+    fallbackToPublicServer: true
+    preferredHiveSlot: 2
+    hiveClaimMethod: detect
+    reconnectAfterHours: 0
+window:
+    windowConfigId: ""
+    windowSize: full
+player: {}
+patterns:
+    defaults:
+        - config:
+            position: bottom-left
+            length: 6
+            width: 6
+            distance: 3
+            alignment: 25
+            repetitions: 4
+            yaw: 6
+            zoom: 3
+            gatherPattern: CornerXSnake
+          field: dandelion
+        - config:
+            position: center
+            length: 1
+            width: 1
+            yaw: 6
+            walkReturn: true
+            gatherPattern: BlueFlower
+          field: blueflower
+        - config:
+            position: center
+            length: 8
+            width: 2
+            distance: 3
+            driftComp: true
+            gatherPattern: e_lol
+          field: cactus
+        - config:
+            position: bottom-left
+            length: 6
+            width: 6
+            distance: 3
+            alignment: 15
+            repetitions: 4
+            yaw: 6
+            gatherPattern: CornerXSnake
+          field: pumpkin
+        - config:
+            position: center
+            length: 8
+            width: 2
+            yaw: 2
+            zoom: 4
+            invertLR: true
+            driftComp: true
+            gatherPattern: e_lol
+          field: mountain
+        - config:
+            position: center
+            length: 8
+            width: 2
+            distance: 4
+            yaw: 2
+            driftComp: true
+            gatherPattern: e_lol
+          field: sunflower
+        - config:
+            position: center
+            length: 8
+            width: 2
+            distance: 3
+            backpackPercent: 95
+            seconds: 900
+            walkReturn: true
+            driftComp: true
+            gatherPattern: e_lol
+          field: clover
+        - config:
+            position: bottom-right
+            length: 6
+            width: 6
+            distance: 3
+            alignment: 15
+            repetitions: 4
+            yaw: 4
+            gatherPattern: CornerXSnake
+          field: spider
+        - config:
+            position: bottom-right
+            length: 6
+            width: 6
+            distance: 3
+            alignment: 15
+            repetitions: 4
+            yaw: 4
+            gatherPattern: CornerXSnake
+          field: strawberry
+        - config:
+            position: bottom-right
+            length: 6
+            width: 6
+            distance: 3
+            alignment: 15
+            repetitions: 4
+            yaw: 4
+            gatherPattern: CornerXSnake
+          field: pineapple
+        - config:
+            position: top-right
+            length: 6
+            width: 6
+            alignment: 15
+            repetitions: 4
+            invertLR: true
+            gatherPattern: CornerXSnake
+          field: coconut
+        - config:
+            position: center
+            length: 1
+            width: 1
+            yaw: 6
+            walkReturn: true
+            gatherPattern: Bamboo
+          field: bamboo
+        - config:
+            position: top-right
+            length: 1
+            width: 1
+            distance: 5
+            repetitions: 1
+            pitch: 1
+            backpackPercent: 97
+            seconds: 600
+            shiftLock: true
+            walkReturn: true
+            gatherPattern: AI Gather
+          field: pinetree
+        - config:
+            position: bottom-right
+            length: 6
+            width: 6
+            distance: 3
+            alignment: 15
+            repetitions: 4
+            yaw: 4
+            gatherPattern: CornerXSnake
+          field: mushroom
+        - config:
+            position: center
+            length: 8
+            width: 2
+            yaw: 6
+            driftComp: true
+            gatherPattern: e_lol
+          field: stump
+        - config:
+            position: bottom-left
+            length: 6
+            width: 6
+            distance: 3
+            alignment: 15
+            repetitions: 4
+            yaw: 4
+            invertLR: true
+            gatherPattern: CornerXSnake
+          field: rose
+        - config:
+            position: bottom-right
+            length: 6
+            width: 6
+            alignment: 15
+            repetitions: 4
+            yaw: 4
+            gatherPattern: CornerXSnake
+          field: pepper
+    active:
+        - config:
+            position: top-right
+            length: 1
+            width: 1
+            distance: 5
+            repetitions: 1
+            pitch: 1
+            backpackPercent: 95
+            seconds: 600
+            shiftLock: true
+            walkReturn: true
+            gatherPattern: AI Gather
+          id: rose-1
+          field: mountain
+          order: 1
+    alignmentLevel: low
+dispensers:
+    blueberry: true
+    strawberry: true
+    coconut: false
+    treat: false
+    honey: false
+    wealthClock: true
+    antPass: false
+    roboPass: false
+    royalJelly: false
+    glue: true
+    honeystorm:
+        enabled: false
+        gatherTokens: false
+    stickerPrinter:
+        enabled: false
+        eggType: basic
+    beesmas:
+        stockings: false
+        honeyWreath: false
+        beesmasFeast: false
+        gingerbreadHouse: false
+        snowMachine: false
+        candles: false
+        samovar: false
+        lidArt: false
+    memoryMatch:
+        disabledLoot: []
+        highPriorityLoot:
+            - name: Mythic
+              enabled: true
+            - name: Diamond
+              enabled: true
+            - name: StarJelly
+              enabled: true
+        basic:
+            enabled: false
+            disabledLoot: []
+        mega:
+            enabled: false
+            disabledLoot: []
+        extreme:
+            enabled: false
+            disabledLoot: []
+        winter:
+            enabled: false
+            disabledLoot: []
+routing:
+    tasks: []
+    taskGroups: []
+    disableCannon: false
+    disableGlider: false
+    safePaths: false
+    alignmentStuds: 0
+    resetPenalty: 1
+    maxTaskRetries: 5
+convert:
+    convertBalloon: true
+    minMinutes: 0
+    maxMinutes: 30
+    minBackpackPercent: 0
+    maxBackpackPercent: 80
+    minBlessing: 0
+    finishAfterRefresh: true
+gather:
+    ai:
+        tokens: []
+        maxFPS: 10
+        disableDownscaling: false
+        windowSize: 1366x768
+        lootMode: true
+        ecoMode: false
+        hiveColor: blue
+        ultraMode: false
+        showOverlay: true
+        overlayBackend: ulw
+        redAI:
+            collectFlames: true
+            convertFlames: true
+            collectDupedTokens: true
+            collectPreciseMarks: true
+        movementProfile:
+            enabled: true
+            path: C:\Users\lurka\AppData\Roaming\RevolutionMacro\profiles\Default.movement.json
+        debugMode: false
+    disableGathering: false
+    useDipper: true
+    inactiveHoneyTimeout: 10
+    fullBackpackTimeout: 5
+    fastPineReturnPath: true
+    sprinklerSpacing: 15
+quest:
+    polarBear:
+        enabled: false
+        priority: 0
+        interrupt: false
+        useGumdrops: false
+    blackBear:
+        enabled: true
+        priority: 0
+        interrupt: true
+        useGumdrops: false
+    brownBear:
+        enabled: false
+        priority: 0
+        interrupt: false
+        useGumdrops: false
+    rileyBee:
+        enabled: false
+        priority: 0
+        interrupt: false
+        useGumdrops: false
+        buyAntPass: false
+        rageTokenAnt: false
+    buckoBee:
+        enabled: false
+        priority: 0
+        interrupt: false
+        useGumdrops: false
+        buyAntPass: false
+        rageTokenAnt: false
+    mainline:
+        enabled: false
+        priority: 0
+        interrupt: false
+        useGumdrops: false
+        onett: false
+        blackBear: false
+        motherBear: false
+        pandaBear: false
+        spiritBear: false
+vicHop:
+    enabled: false
+    role: main
+    serverHop: true
+    claimHive: false
+    hopTimeout: 30
+    skipSpider: false
+    skipPepper: false
+    joinNewBattle: true
+    joinInProgressBattle: true
+    vicMinHealthPercent: 0.2
+    joinEmptyServers: false
+    rejoinAfterHours: 2
+mondoHop:
+    enabled: false
+    role: main
+    lootSeconds: 30
+    lootAI: false
+    lootPriority: []
+rbcGather:
+    enabled: false
+    role: main
+    redPollenField: mushroom
+    bluePollenField: blueflower
+    whitePollenField: dandelion
+    anyPollenField: mushroom
+    fieldNavigationMode: hard-easy
+    switchThreshold: 80
+    altRejoinOnDeath: false
+    altResetDisabled: false
+    detectQuestAfterRound: 5
+    maxAltsOnField: 2
+buff:
+    consumables: []
+    mondo:
+        enabled: false
+        buffTime: 60
+        kill: true
+        useAI: true
+        interrupt: false
+    stickerStack:
+        enabled: false
+        useTickets: false
+        useStickers: false
+        interrupt: false
+        stackTime: 4200
+        autoDetect: true
+    tadSync:
+        enabled: false
+        role: main
+        usePineAltPattern: true
+        useBambooAltPattern: true
+        useBlueFlowerAltPattern: true
+        returnField: pinetree
+        resetToField: false
+        glitterExtension: false
+        glitterFields: []
+        glitterLeadSeconds: 70
+        glitterHold: false
+    hqBooster:
+        redBooster: false
+        blueBooster: true
+        mountainBooster: true
+        gatherBoostedField: false
+        staggerBoosts: false
+        restrictedFields: []
+    windShrine:
+        enabled: false
+        item: ""
+        quantity: 1
+    autoFieldBoost:
+        enabled: false
+        useDice: true
+        useGlitter: true
+        useBooster: true
+        diceLimit: 0
+        glitterLimit: 0
+        enableBoostLimit: false
+        boostTotalLimit: 0
+        boostEvery: 750
+alt: {}
+macro:
+    keyDelay: 50
+    loadTimeout: 30
+    beesmasForceEnabled: false
+    includeTextInHourlyEmbed: true
+    discordRichPresenceEnabled: false
+    disableItemTracking: false
+    reportTheme: midnight
+kill:
+    monsterRespawnPercent: 0
+    disableAILootCollection: false
+    disabledLootGroups: []
+    bugRun:
+        ladybug:
+            loot: true
+            minTime: 0
+            enabledFields: []
+        rhinoBeetle:
+            loot: true
+            minTime: 0
+            enabledFields: []
+        spider:
+            loot: true
+            minTime: 0
+            enabledFields: []
+        mantis:
+            loot: true
+            minTime: 0
+            enabledFields: []
+        scorpion:
+            loot: true
+            minTime: 0
+            enabledFields: []
+        werewolf:
+            loot: true
+            minTime: 0
+            enabledFields: []
+    stumpSnail:
+        enabled: false
+        kill: true
+        requireBabyLove: true
+        aiBattle: true
+        targetHealth: 30000000
+        maxKillTimeSeconds: 1800
+        amuletOption: ignore
+planter:
+    disabled: false
+    gatherLoot: true
+    convertOnFullBagHarvest: true
+    searchMissingPlanters: false
+    pathfindWhenPlanting: false
+    resetWhenHarvesting: false
+    useTimeAsCursor: false
+    autoPlanters:
+        enabled: true
+        harvestAutomatically: true
+        harvestAfterHours: 2
+        harvestMinHours: 2
+        harvestFullyGrown: false
+        maxPlanters: 3
+        nearCapStartHours: 22.5
+        nearCapPenaltyWeight: 0.25
+        maxSlotsPerNectarEarly: 2
+        gatherFieldNectarSipping: false
+        gatherFieldNectarRequire: false
+        gatherInPlanterField: false
+        onlyGatherInPlanterField: false
+        lootSchedules:
+            enabled: false
+            selectedCombos: []
+            policy: always
+            itemPriority: []
+            comboPriorities: []
+        algorithm: legacy
+        fields:
+            - field: Dandelion
+              disabled: false
+              disabledPlanters: []
+            - field: Bamboo
+              disabled: false
+              disabledPlanters: []
+            - field: Pine Tree
+              disabled: false
+              disabledPlanters: []
+            - field: Mushroom
+              disabled: false
+              disabledPlanters: []
+            - field: Spider
+              disabled: false
+              disabledPlanters: []
+            - field: Rose
+              disabled: false
+              disabledPlanters: []
+            - field: Stump
+              disabled: false
+              disabledPlanters: []
+            - field: Sunflower
+              disabled: false
+              disabledPlanters: []
+            - field: Pineapple
+              disabled: false
+              disabledPlanters: []
+            - field: Pumpkin
+              disabled: false
+              disabledPlanters: []
+            - field: Blue Flower
+              disabled: false
+              disabledPlanters: []
+            - field: Strawberry
+              disabled: false
+              disabledPlanters: []
+            - field: Coconut
+              disabled: true
+              disabledPlanters: []
+            - field: Clover
+              disabled: false
+              disabledPlanters: []
+            - field: Cactus
+              disabled: false
+              disabledPlanters: []
+            - field: Mountain Top
+              disabled: false
+              disabledPlanters: []
+            - field: Pepper Patch
+              disabled: false
+              disabledPlanters: []
+        planters:
+            - planter: Plastic Planter
+              disabled: true
+              disabledFields: []
+            - planter: Candy Planter
+              disabled: true
+              disabledFields: []
+            - planter: Blue Clay Planter
+              disabled: true
+              disabledFields: []
+            - planter: Red Clay Planter
+              disabled: true
+              disabledFields: []
+            - planter: Tacky Planter
+              disabled: true
+              disabledFields: []
+            - planter: Pesticide Planter
+              disabled: true
+              disabledFields: []
+            - planter: Petal Planter
+              disabled: true
+              disabledFields: []
+            - planter: Hydroponic Planter
+              disabled: true
+              disabledFields: []
+            - planter: Heat-Treated Planter
+              disabled: true
+              disabledFields: []
+            - planter: Planter Of Plenty
+              disabled: true
+              disabledFields: []
+            - planter: Paper Planter
+              disabled: true
+              disabledFields: []
+            - planter: Ticket Planter
+              disabled: true
+              disabledFields: []
+        nectars:
+            - type: Comforting
+              target: 0.7
+              priority: 5
+            - type: Motivating
+              target: 0.8
+              priority: 4
+            - type: Satisfying
+              target: 0.8
+              priority: 3
+            - type: Refreshing
+              target: 0.8
+              priority: 2
+            - type: Invigorating
+              target: 0.4
+              priority: 1
